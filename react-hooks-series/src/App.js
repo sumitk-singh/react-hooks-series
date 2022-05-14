@@ -1,16 +1,18 @@
 
 import ToggleTheme from "./UseContextExample/TogglePage.jsx";
 
-import { ThemeProvider } from "./UseContextExample/Themecontext.jsx";
+import { ThemeProvider } from "./UseContextExample/UseContextExample.jsx";
 
 import "./styles.css";
 
-export default function App() {
+function App() {
   return (
+
     <ThemeProvider>
-      <div className="App">
-        <ToggleTheme />
-      </div>
+      <ToggleTheme />
     </ThemeProvider>
+    
   );
 }
+
+export default App;

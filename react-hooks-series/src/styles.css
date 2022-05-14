@@ -3,6 +3,8 @@
     text-align: center;
   }
   button {
+    margin-top: 2rem;
+    float: right;
     border: 1px solid rgb(2, 89, 224);
     background: rgb(2, 89, 224);
     color: #ffffff;
